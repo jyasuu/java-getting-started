@@ -91,3 +91,15 @@ DATABASE_URL:         postgres://avhrhofbiyvpct:3ab23026d0fc225bde4544cedabc3569
 ENERGY:               20 GeV
 PAPERTRAIL_API_TOKEN: ChtIUu9fHbij1cBn7y6z
 ```
+
+## Start a One-off Dyno
+
+The heroku run command lets you run maintenance and administrative tasks on your app in a one-off dyno. It also lets you launch a REPL process attached to your local terminal for experimenting in your app’s environment or your deployed application code:
+
+```sh
+heroku run java -version
+Running java -version on calm-beyond-57162... connecting, run.4685 (Free)Running java -version on calm-beyond-57162... up, run.4685 (Free)
+openjdk version "1.8.0_302-heroku"
+OpenJDK Runtime Environment (build 1.8.0_302-heroku-b08)
+OpenJDK 64-Bit Server VM (build 25.302-b08, mixed mode)
+```
